@@ -1,0 +1,159 @@
+body {
+    display: flex;
+    font-size: 1vw;
+    flex-direction: column;
+    min-height: 100vh;
+    /* max-width: 100vh; */
+    margin: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.maincontent {
+    display: flex;
+    flex-direction: column;
+    /* flex:1 ; */
+    justify-content: space-around;
+    padding: 4% 0;
+}
+
+.header, .about, .footer {
+    background-color: #1f2937;
+    color: white;
+}
+
+.links {
+    display: flex;
+    color: #e5e7eb;
+    font-size: .93vw;
+    width: 35%;
+    justify-content: end;
+    gap: 1.04vw;
+}
+
+button, .blue {
+    background-color: #3882f6;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    /* flex: 1; */
+    justify-content: center;
+    align-items: center;
+    padding: 4% 0;
+}
+
+.header, .links {
+    display: flex;
+}
+
+.header {
+    justify-content: space-around;
+    padding-top: 1.5%;
+}
+.about {
+    display: flex;
+    flex-direction: row;
+    /* flex-grow: 1; */
+    justify-content: space-around;
+    padding: 4% 0;
+}
+
+.siteimg {
+    background-color:#767d88 ;
+    width: 25%;
+    height: 12.5%;
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    /* flex-grow: 1; */
+}
+
+.info {
+    width: 25%;
+
+}
+
+.logo {
+    width: 25%;
+}
+
+p {
+    margin: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: .78vw;
+}
+
+button {
+    width: 5.20vw;
+    padding: .26vw;
+    border-radius: .364vw;
+    color: white;
+    border-style: none;
+}
+
+.siteimg p {
+    margin: 23%
+}
+
+.blank {
+    width: 7.8125vw;
+    height: 7.8125vw;
+    border: 3px solid blue;
+    border-radius: 1.3vw;
+    margin-bottom: 10%;
+}
+
+.four {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 3%;
+}
+
+.empty {
+    width: 8.2vw;
+    text-align: center;
+}
+
+.words {
+    font-size: 1.875vw;
+     font-style: italic;
+      color: #1f2937;
+      width: 60%;
+}
+
+.by {
+    font-weight: bold;
+    width: 60%;
+    text-align: end;
+}
+
+.blue {
+    display: flex;
+    width: 50%;
+    justify-content: space-around;
+    margin: 3% auto;
+    padding: 2% 0;
+    border-radius: 10px;
+    color: white;
+}
+
+.footer {
+    text-align: center;
+    padding: 1.5%;
+}
+
+.blue button {
+    border: .1041vw solid white;
+}
