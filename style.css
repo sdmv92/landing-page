@@ -95,9 +95,10 @@ p {
 }
 
 button {
-    width: 5.20vw;
-    padding: .26vw;
-    border-radius: .364vw;
+    font-size: 1vw;
+    width: 7vw;
+    padding: .35vw;
+    border-radius: .6vw;
     color: white;
     border-style: none;
 }
@@ -109,7 +110,7 @@ button {
 .blank {
     width: 7.8125vw;
     height: 7.8125vw;
-    border: 3px solid blue;
+    border: .3vw solid blue;
     border-radius: 1.3vw;
     margin-bottom: 10%;
 }
